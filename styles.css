@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Grey+Qo&family=Labrada:ital,wght@0,100..900;1,100..900&family=Monoton&family=New+Rocker&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rock+Salt&family=Tangerine:wght@400;700&display=swap');
+
+        /*Navigation CSS*/
+        nav {
+            background-color: black;
+        }
+        .navbar-brand {
+            color: white;
+            font-family: "Poiret One", serif;
+            font-size: 1.5em;
+        }
+        .nav-item a{
+            color: gray;
+        }
+        .nav-item a:hover {
+            color: orangered;
+        }
+
+
+        /* Card CSS */
+        .card-img-top {
+            width: 200px;
+        }
+        .text-secondary {
+            font-family: "Poppins", serif;
+        }
+        .text-primary {
+            font-family: "Labrada", serif;
+        }
+
+
+        /* Catagory List CSS */
+        .Cata, .cataName, .filter {
+            font-family: "DM Serif Display", serif;
+        }
+        .form-check-input {
+            cursor: pointer;
+            border: 1px solid rgb(10, 199, 10);
+            box-shadow: 0px 0px 1px rgba(0, 128, 0, 0.363);
+        }
+        .cataName {
+            text-transform: capitalize;
+        }
+
+        .price-list li {
+            list-style-type: none;
+        }
+        .filters {
+            display: none;
+        }
+        .bi-filter-left:hover {
+            cursor: pointer;
+        }
